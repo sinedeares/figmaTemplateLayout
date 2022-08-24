@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="mainblock">
+    <form action="">
+      <p><input class="text" maxlength="25" size="40" name="name" required placeholder="Имя"></p>
+      <p><input class="text" maxlength="25" size="40" name="surname" placeholder="Фамилия"></p>
+      <p><input class="text" maxlength="25" size="40" name="email" required placeholder="E-mail"></p>
+      <p><input class="text" type="password" maxlength="25" size="40" name="password" required placeholder="Пароль"></p>
+      <p><input class="text" type="password" maxlength="25" size="40" name="repeatpassword" required
+          placeholder="Повторите пароль"></p>
+      <a href="#openModal">
+        <p><input type="button" class="button" value="Регистрация"></p>
+      </a>
+  </div>
+
+  <div id="openModal" class="modalbackground">
+    <div class="modalwindow">
+      <h3>Вы успешно зарегистрировались!</h3>
+      <a href="login.html">Закрыть</a>
+    </div>
+  </div>
+  </form>
+</body>
+
+</html>

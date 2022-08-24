@@ -1,0 +1,335 @@
+.body {
+    margin: 0 ;
+
+}
+
+.container{
+    width: 100%;
+    min-width: 760px;
+
+}
+
+.headBlock {
+    max-width: 100%;
+    height: 120px;
+    background-color: #4A2B33;
+    /* min-width: 1600px; */
+
+}
+
+.wrapper{
+    padding-top: 44.53px;
+    display: flex;
+    padding-left: 56px;
+    /* min-width: 1600px; */
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 21px;
+    line-height: 24px;
+    font-family: "Inter";
+    color: #D27487;
+}
+
+.imageBlock{
+    padding-left: 20%;
+    justify-content: center;
+}
+
+.imageOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 276px;
+    height: 32px;
+}
+
+.socials{
+    display: flex;
+    padding-left: 37%;
+    
+} 
+
+.letterImage{
+    width: 23.2px;
+    height: 18.56px;
+}
+
+.facebookImage{
+    margin-left: 16.4px;
+    width: 23.19px;
+    height: 23.05px;
+}
+
+.instaImage{
+    margin-left: 16.4px;
+    width: 22.99px;
+    height: 23px;
+}
+
+.middleBlock{
+    width: 100%;
+    height: 680px;
+    background-color: #4A2B33;
+    display:flex;
+    justify-content: center; 
+    /* min-width: 1600px; */
+
+}
+
+.cafeImage{
+    padding-left: 56px;
+    margin-right: 56px;
+    width: 100%;
+    height: 644px;
+    bottom: 36px;
+}
+
+.aboutBlock{
+    background-color: white;
+    width: 100%;
+    height: 713px;
+}
+
+.centerTextBlock{
+    padding-top: 220px;
+}
+
+.about{
+    font-family: "Azeret Mono";
+    text-align: center;
+    font-size: 17px;
+}
+
+.textAbout{
+    font-family: "Inter";
+    text-align: center;
+    font-size: 32px;
+}
+
+.menuBlock{
+    background-color: #E9E9E3;
+    height: 1277px;
+    display: flex;
+}
+
+.centerMenuBlock{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.leftSide{
+    padding-left: 96px;
+}
+
+.menuWord{
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    color:#6F6F64;
+    
+}
+
+.someText{
+    font-family: "Inter";
+    font-size: 32px;
+    color:#6F6F64;
+}
+
+.rectangles{
+    padding-top: 74px;
+
+} 
+
+.rectangle1{
+
+    width: 531px;
+    height: 58px;
+    border: 2px solid;
+    border-color: #6F6F64;
+    background-color:  #6F6F64;
+
+}
+
+.rectangle2{
+   
+    width: 531px;
+    height: 58px;
+    border: 2px solid;
+    border-color: #6F6F64
+}
+
+.rectangle3{
+    width: 531px;
+    height: 58px;
+    border: 2px solid;
+    border-color: #6F6F64
+}
+
+.rectangle1Text{
+    font-family: "Inter";
+    font-size: 15px;
+    color:white;
+
+    text-align: center;
+}
+
+.otherRectanglesText{
+    font-family: "Inter";
+    font-size: 15px;
+    color: #6F6F64;
+    text-align: center;
+
+}
+
+.space{
+    height: 12px;
+}
+
+.menuImage{
+    height: 1037px;
+    width: 664px;
+    padding-left: 497px; 
+}
+
+.timeBlock{
+    background-color: #AA9E54;
+    height: 473px;
+}
+
+.hoursBlock{
+    padding-top: 120px;
+    padding-left: 56px;
+}
+
+.upHoursBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.centerHoursBlock{
+    padding-left: 253px;
+}
+.rightHoursBlock{
+    padding-left: 188px;
+}
+
+.downHoursBlock{
+    padding-right: 32px;
+}
+
+.firstRow{
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.secondRow{
+    font-family: "Inter";
+    font-size: 26px;
+    color: white;
+    text-align: center;
+}
+
+.cafePhotosBlock{
+    background-color: white;
+    height: 880px;
+}
+.cafePhotos{
+    display: flex;
+    padding-top: 152px;
+    padding-bottom: 120px;
+    padding-left: 56px;
+    height: 640px;
+    justify-content: center;
+}
+
+.bottlesPicture{
+    width: 644px;
+    height: 300px;
+    position: absolute;
+
+}
+
+.foodPicture{
+    width: 644px;
+    height: 300px;
+    position: absolute;
+    padding-top: 340px;
+}
+
+.chairPicture{
+    width: 644px;
+    height: 640px;
+    padding-left: 680px; 
+}
+
+.infoBlock{
+    background-color: #4A2B33;
+    height:461px;
+}
+.infoTextBlock{
+    display: flex;
+}
+
+.leftInfoText{
+    font-family: "Azeret Mono";
+    font-size: 47px;
+    color: #D27487;
+    padding-top: 121px;
+    padding-left: 312px;
+    
+}
+
+.rightInfoText{
+    padding-top: 139px;
+    padding-left: 267px;
+    font-family: "Inter";
+    font-size: 18px;
+    color: #D27487;
+}
+
+.lastBlock{
+    background-color: white;
+    height: 187px;
+    
+}
+
+.quadrLastBlock{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.firstRowLast{
+    display: flex;
+    justify-content: center;
+}
+
+.secondRowLast{
+    display: flex;
+    justify-content: center;
+}
+
+.thirdRowLast{
+    display: flex;
+    justify-content: center;
+}
+
+.blackWords{
+    font-family: "Inter";
+    font-size: 15px;
+    padding-left: 32px;
+}
+
+.transparentWords{
+    font-family: "Inter";
+    font-size: 13px;
+    color: rgba(0,0,0,0.5);
+    padding-left: 16px;
+}

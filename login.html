@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Вход</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainblock">
+        <form action="">
+            <p><input class="text" maxlength="25" size="40" name="email" placeholder="E-mail"></p>
+            <p><input class="text" type="password" maxlength="25" size="40" name="password" placeholder="Пароль"></p>
+
+            <a href="#openModal">
+                <p><input type="button" class="button" value="Вход" color></p>
+            </a>
+
+            <div class="other">
+                <p>или</p>
+            </div>
+
+            <p><input type="button" class="button" value="Регистрация"
+                    onclick="window.location.href = 'registration.html'" /></p>
+
+
+        </form>
+
+        <div id="openModal" class="modalbackground">
+            <div class="modalwindow">
+                <h3>Вы успешно вошли!</h3>
+                <a href="index.html">Закрыть</a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="imageBlock">
+            <img class="imageOne" src="img/naming.png">
+        </div>
+
+    </div>
+</body>
+
+</html>
